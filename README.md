@@ -1,5 +1,5 @@
-surfboard原版：https://pangmf0000.coding.me/surfboard/Proxy.conf
+surfboard原版：https://pangmf.github.io/surfboard/Proxy.conf
 
-surfboard去广告：https://pangmf0000.coding.me/surfboard/ProxyS.conf
+surfboard去广告：https://pangmf.github.io/surfboard/ProxyS.conf
 
-clash标准版：https://pangmf0000.coding.me/surfboard/clash.yml
+clash标准版：https://pangmf.github.io/surfboard/clash.yml
