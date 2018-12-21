@@ -1,0 +1,94 @@
+
+#Yahoo flurry Logs Analysis
+127.0.0.1 data.flurry.com
+#Crashlytics Logs Analysis
+127.0.0.1 e.crashlytics.com
+#Talkingdata Logs Analysis
+127.0.0.1 av1.xdrig.com
+#Appjiagu
+127.0.0.1 f.appjiagu.com
+#Umeng advertising
+127.0.0.1 alog.umeng.com
+127.0.0.1 alog.umengcloud.com
+#Baye advertising
+127.0.0.1 ad.bayescom.com
+#QQ Social advertising
+127.0.0.1 mi.gdt.qq.com
+127.0.0.1 c.gdt.qq.com
+127.0.0.1 sdk.e.qq.com
+127.0.0.1 pgdt.gtimg.cn
+127.0.0.1 oth.eve.mdt.qq.com:8080
+127.0.0.1 qzs.qq.com
+127.0.0.1 h5.qzone.qq.com
+#Baidu  advertising
+127.0.0.1 mobads-logs.baidu.com
+127.0.0.1 mobads.baidu.com
+127.0.0.1 wn.pos.baidu.com
+127.0.0.1 ubmcmm.baidustatic.com
+127.0.0.1 cpro.baidustatic.com
+#Inmobi advertising
+127.0.0.1 config.inmobi.com
+127.0.0.1 i.w.inmobi.com
+127.0.0.1 au.w.inmobi.cn
+127.0.0.1 et.w.inmobi.cn
+#jizhaopin advertising
+127.0.0.1 api.92du.cn
+#Youdao Note
+127.0.0.1 oimagea1.ydstatic.com
+127.0.0.1 oimagea2.ydstatic.com
+127.0.0.1 oimagea3.ydstatic.com
+127.0.0.1 oimagea4.ydstatic.com
+127.0.0.1 oimagea5.ydstatic.com
+127.0.0.1 oimagea6.ydstatic.com
+127.0.0.1 oimagea7.ydstatic.com
+127.0.0.1 oimagea8.ydstatic.com
+127.0.0.1 oimageb1.ydstatic.com
+127.0.0.1 oimageb2.ydstatic.com
+127.0.0.1 oimageb3.ydstatic.com
+127.0.0.1 oimageb4.ydstatic.com
+127.0.0.1 oimageb5.ydstatic.com
+127.0.0.1 oimageb6.ydstatic.com
+127.0.0.1 oimageb7.ydstatic.com
+127.0.0.1 oimageb8.ydstatic.com
+127.0.0.1 oimagec1.ydstatic.com
+127.0.0.1 oimagec2.ydstatic.com
+127.0.0.1 oimagec3.ydstatic.com
+127.0.0.1 oimagec4.ydstatic.com
+127.0.0.1 oimagec5.ydstatic.com
+127.0.0.1 oimagec6.ydstatic.com
+127.0.0.1 oimagec7.ydstatic.com
+127.0.0.1 oimagec8.ydstatic.com
+#Toutiao
+127.0.0.1 ad.toutiao.com
+127.0.0.1 policy.jd.com
+127.0.0.1 wx.qlogo.cn
+#Netease Cloud Music
+127.0.0.1 p2.music.126.net
+127.0.0.1 p3.music.126.net
+127.0.0.1 p4.music.126.net
+#Xunlei
+127.0.0.1 i0.webgame.kanimg.com
+127.0.0.1 i1.webgame.kanimg.com
+127.0.0.1 i2.webgame.kanimg.com
+127.0.0.1 i3.webgame.kanimg.com
+127.0.0.1 1image.7niu.n0808.com
+127.0.0.1 img2.user.kanimg.com
+127.0.0.1 video.xycdn.n0808.com
+127.0.0.1 image.7niu.n0808.com
+127.0.0.1 2image.7niu.n0808.com
+127.0.0.1 3image.7niu.n0808.com
+127.0.0.1 4image.7niu.n0808.com
+127.0.0.1 api-xl9-ssl.xunlei.com
+127.0.0.1 7xt0pj.com1.z0.glb.clouddn.com
+127.0.0.1 img5.mtime.cn
+127.0.0.1 viewerproxy-niu-ssl.xunlei.com
+127.0.0.1 img.smxj.webgame.kanimg.com
+127.0.0.1 img-niu-ssl.a.88cdn.com
+127.0.0.1 misc-xl9-ssl.xunlei.com 
+#Mokee
+127.0.0.1 ads.waps.cn
+127.0.0.1 app.wapx.cn
+127.0.0.1 ads.wapx.cn
+127.0.0.1 app.waps.cn
+127.0.0.1 easytomessage.com
+#End
