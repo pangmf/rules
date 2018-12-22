@@ -1,4 +1,3 @@
-
 #Yahoo flurry Logs Analysis
 127.0.0.1 data.flurry.com
 #Crashlytics Logs Analysis
@@ -19,7 +18,6 @@
 127.0.0.1 pgdt.gtimg.cn
 127.0.0.1 oth.eve.mdt.qq.com:8080
 127.0.0.1 qzs.qq.com
-127.0.0.1 h5.qzone.qq.com
 #Baidu  advertising
 127.0.0.1 mobads-logs.baidu.com
 127.0.0.1 mobads.baidu.com
