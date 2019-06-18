@@ -1,3 +1,5 @@
+ss_sub：https://raw.githubusercontent.com/pangmf/surfboard/master/ss_sub?token=AJ2V4MXO3YD4Y2S4G7ASPEC5CI54G
+
 surfboard原版：https://pangmf.github.io/surfboard/Proxy.conf
 
 surfboard去广告：https://raw.githubusercontent.com/pangmf/surfboard/master/gogo.conf?token=AnVeMnsBw_kr-upYhcpkT94Dw0teSq6Bks5cSMISwA%3D%3D
