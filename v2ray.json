@@ -1,11 +1,123 @@
-"policy":{
- "levels":{
-  "0":{
-    "handshake": 4,
-    "connIdle": 3600,
-    "uplinkOnly": 2,
-    "downlinkOnly": 5,
-    "bufferSize": 10240
+{
+  "log": {
+    "error": "/var/log/v2ray/error.log",
+    "access": "/var/log/v2ray/access.log",
+    "loglevel": "info"
+  },
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "blocked",
+      "settings": {}
+    }
+  ],
+ "policy":{
+  "levels":{
+   "0":{
+     "handshake": 4,
+     "connIdle": 3600,
+     "uplinkOnly": 2,
+     "downlinkOnly": 5,
+     "bufferSize": 10240
+   }
   }
- }
+ },
+  "routing": {
+    "rules": [
+      {
+        "ip": [
+          "0.0.0.0/8",
+          "10.0.0.0/8",
+          "100.64.0.0/10",
+          "169.254.0.0/16",
+          "172.16.0.0/12",
+          "192.0.0.0/24",
+          "192.0.2.0/24",
+          "192.168.0.0/16",
+          "198.18.0.0/15",
+          "198.51.100.0/24",
+          "203.0.113.0/24",
+          "::1/128",
+          "fc00::/7",
+          "fe80::/10"
+        ],
+        "type": "field",
+        "outboundTag": "blocked"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "streamSettings": {
+        "tlsSettings": {},
+        "quicSettings": {},
+        "wsSettings": {
+          "connectionReuse": true,
+          "headers": {
+            "Host": "www.fegan.site"
+          },
+          "path": "/dDWhFP4c/"
+        },
+        "tcpSettings": {},
+        "kcpSettings": {},
+        "httpSettings": {},
+        "network": "ws",
+        "security": "none"
+      },
+      "protocol": "vmess",
+      "port": 37683,
+      "settings": {
+        "clients": [
+          {
+            "alterId": 32,
+            "id": "20d26282-d963-11e9-9eae-560002412295"
+          }
+        ]
+      }
+    },
+    {
+      "streamSettings": {
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/root/.acme.sh/www.fegan.xyz_ecc/fullchain.cer",
+              "keyFile": "/root/.acme.sh/www.fegan.xyz_ecc/www.fegan.xyz.key"
+            }
+          ]
+        },
+        "quicSettings": {},
+        "wsSettings": {},
+        "tcpSettings": {},
+        "kcpSettings": {},
+        "httpSettings": {
+          "path": "/R5x3FEth/"
+        },
+        "network": "h2",
+        "security": "tls"
+      },
+      "protocol": "vmess",
+      "port": 11223,
+      "settings": {
+        "clients": [
+          {
+            "alterId": 32,
+            "id": "36567094-d963-11e9-9eae-560002412295"
+          }
+        ]
+      }
+    },
+    {
+      "protocol": "shadowsocks",
+      "port": 56462,
+      "settings": {
+        "method": "aes-128-gcm",
+        "network": "tcp,udp",
+        "password": "FlOCBJamYcXMUrTw"
+      }
+    }
+  ]
 }
