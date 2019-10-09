@@ -50,7 +50,6 @@ Proxy:
     uuid: 97a4b8a6-e539-11e9-b715-5600025553a7
     alterId: "32"
     cipher: auto
-
   - name: 日本-cdn
     type: vmess
     server: www.fegan.xyz
@@ -58,9 +57,9 @@ Proxy:
     uuid: 36bea1a2-e537-11e9-8dc1-5600025553a7
     alterId: "32"
     cipher: auto
-    network: ws
+    network: ws
     ws-path: /cknGxuV7/
-    tls: true
+    tls: true
     skip-cert-verify: true
 Proxy Group:
   - name: PROXY
