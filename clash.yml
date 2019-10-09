@@ -1,4 +1,3 @@
-#!MANAGED-CONFIG https://pangmf.github.io/surfboard/clash.yml
 port: 7890
 socks-port: 7891
 allow-lan: false
@@ -50,23 +49,24 @@ Proxy:
     uuid: 97a4b8a6-e539-11e9-b715-5600025553a7
     alterId: "32"
     cipher: auto
-  - name: 日本-cdn
+  - name: 日本-CDN
     type: vmess
     server: www.fegan.xyz
     port: "53"
     uuid: 36bea1a2-e537-11e9-8dc1-5600025553a7
     alterId: "32"
     cipher: auto
-    network: ws
-    ws-path: /cknGxuV7/
     tls: true
     skip-cert-verify: true
+    network: ws
+    ws-path: /cknGxuV7/
 Proxy Group:
   - name: PROXY
     proxies:
       - 日本-vmess
-      - 日本-cdn
+      - 日本-CDN
     type: select
+    _index: 0
   - name: Final
     type: select
     proxies:
@@ -82,20 +82,19 @@ Proxy Group:
     proxies:
       - PROXY
       - 日本-vmess
-      - 日本-ss
+      - 日本-CDN
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
       - 日本-vmess
-      - 日本-ss
+      - 日本-CDN
   - name: Hijacking
     type: select
     proxies:
       - DIRECT
       - REJECT
 Rule:
-  - DOMAIN-SUFFIX,sharepoint.com,PROXY
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
   - DOMAIN-SUFFIX,285680.com,Hijacking
