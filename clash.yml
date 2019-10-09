@@ -80,15 +80,15 @@ Proxy Group:
   - name: ForeignMedia
     type: select
     proxies:
-      - 日本-vmess
       - PROXY
       - 日本-CDN
+      - 日本-vmess
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
-      - 日本-vmess
       - 日本-CDN
+      - 日本-vmess
   - name: Hijacking
     type: select
     proxies:
