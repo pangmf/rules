@@ -63,15 +63,15 @@ Proxy:
 Proxy Group:
   - name: PROXY
     proxies:
-      - 日本-vmess
       - 日本-CDN
+      - 日本-vmess
     type: select
     _index: 0
   - name: Final
     type: select
     proxies:
-      - PROXY
       - DIRECT
+      - PROXY
   - name: Apple
     type: select
     proxies:
@@ -80,8 +80,8 @@ Proxy Group:
   - name: ForeignMedia
     type: select
     proxies:
-      - PROXY
       - 日本-vmess
+      - PROXY
       - 日本-CDN
   - name: DomesticMedia
     type: select
@@ -92,8 +92,8 @@ Proxy Group:
   - name: Hijacking
     type: select
     proxies:
-      - DIRECT
       - REJECT
+      - DIRECT
 Rule:
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
