@@ -12,9 +12,9 @@ ipv6: false
 listen: 0.0.0.0:53
 enhanced-mode: fake-ip
 nameserver:
+  - 223.5.5.5
   - 117.50.10.10
   - 119.29.29.29
-  - 223.5.5.5
 cfw-bypass:
   - qq.com
   - music.163.com
