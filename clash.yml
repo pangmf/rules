@@ -70,8 +70,8 @@ Proxy Group:
   - name: Final
     type: select
     proxies:
-      - DIRECT
       - PROXY
+      - DIRECT
   - name: Apple
     type: select
     proxies:
