@@ -60,13 +60,1574 @@ Proxy:
     skip-cert-verify: true
     network: ws
     ws-path: /cknGxuV7/
+  - type: ss
+    server: nttpc01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: NTTPC 落地结算A
+    udp: true
+  - type: ss
+    server: nttpc02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: NTTPC 落地结算B
+    udp: true
+  - type: ss
+    server: nttpc03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: NTTPC 落地结算C
+    udp: true
+  - type: ss
+    server: nttpc04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: NTTPC 落地结算D
+    udp: true
+  - type: ss
+    server: sghk01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 东落地-001-HGC-195-1500-10000
+    udp: true
+  - type: ss
+    server: sghk02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 东落地-001-HGC-196-39000-40000
+    udp: true
+  - type: ss
+    server: sghk03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 东落地-001-HGC-197-60000-65535
+    udp: true
+  - type: ss
+    server: sghk01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 东落地-002-HGC-198-1500-10000
+    udp: true
+  - type: ss
+    server: hkt02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 东落地-003-HKT-02-60000-65535
+    udp: true
+  - type: ss
+    server: hr10.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A0 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A1 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A2 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A3 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A4 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A5 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A6 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A7 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC A8 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr11.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC B1 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr12.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC B2 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr13.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC B3 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr14.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC B4 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hr15.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中日专线 IPLC B5 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: 183.61.251.193
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港 IEPL A
+    udp: true
+  - type: ss
+    server: 183.61.251.194
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港 IEPL B
+    udp: true
+  - type: ss
+    server: 183.61.251.195
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港 IEPL C
+    udp: true
+  - type: ss
+    server: hkt09.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港 IEPL 落地结算 kt09
+    udp: true
+  - type: ss
+    server: sg30.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D0 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg21.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D1 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg30.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D10 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg22.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D2 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg23.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D3 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg24.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D4 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg25.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D5 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg26.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D6 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg27.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D7 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg28.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D8 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: sg29.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中港专线 IPLC D9 1000Mbps 5倍
+    udp: true
+  - type: ss
+    server: hh02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 中韩专线 IPLC A2 20Mbps 5倍
+    udp: true
+  - type: ss
+    server: ru03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 俄罗斯 CN2 1Gbps 2倍
+    udp: true
+  - type: ss
+    server: ru04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 俄罗斯 哈巴罗夫斯克 1Gbps 1倍
+    udp: true
+  - type: ss
+    server: ru02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 俄罗斯GC 1Gbps 1倍
+    udp: true
+  - type: ss
+    server: ru01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 俄罗斯KB 1Gbps 2倍
+    udp: true
+  - type: ss
+    server: ca01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 加拿大 1 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: ca02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 加拿大 2 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: sgtw01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾 电信 600Mbps 1倍 Netflix 动画疯 H
+    udp: true
+  - type: ss
+    server: sgtw02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾 电信 600Mbps 1倍 Netflix 动画疯 I
+    udp: true
+  - type: ss
+    server: tw01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 1 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw10.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 10 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 2 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 3 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 4 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 5 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 6 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 7 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 8 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: tw09.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 台湾HiNet 9 600Mbps 1倍 Netflix 动画疯
+    udp: true
+  - type: ss
+    server: ge01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 德国 3Gbps 1倍 Netflix A
+    udp: true
+  - type: ss
+    server: ge02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 德国 3Gbps 1倍 Netflix B
+    udp: true
+  - type: ss
+    server: sgp01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 A 1Gbps  1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: sgp02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 B 1Gbps 1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: sgp03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 C 1Gbps 1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: sgp04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 D 1Gbps 1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: sgp05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 E 1Gbps 1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: sgp06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 新加坡公有可用区 F 1Gbps 1倍 新加坡Netflix
+    udp: true
+  - type: ss
+    server: 47.100.213.69
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本 BGP 标准中继 5 10倍
+    udp: true
+  - type: ss
+    server: jpaz01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure1 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz10.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure10 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure2 3Gbps 2倍 Netflix
+    udp: true
+  - type: ss
+    server: jpaz03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure3 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure4 3Gbps 2倍 Netflix
+    udp: true
+  - type: ss
+    server: jpaz05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure5 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure6 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure7 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure8 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpaz09.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本Azure9 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: jpb01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 01
+    udp: true
+  - type: ss
+    server: jpb02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 02
+    udp: true
+  - type: ss
+    server: jpb03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 03
+    udp: true
+  - type: ss
+    server: jpb04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 04
+    udp: true
+  - type: ss
+    server: jpb05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 05
+    udp: true
+  - type: ss
+    server: jpb06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 06
+    udp: true
+  - type: ss
+    server: jpb07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 07
+    udp: true
+  - type: ss
+    server: jpb08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本备用 08
+    udp: true
+  - type: ss
+    server: jp01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本电信A 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+    udp: true
+  - type: ss
+    server: jp02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本电信B 3Gbps 1倍 日区 Netflix
+    udp: true
+  - type: ss
+    server: jp08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本电信C 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 A X3
+    udp: true
+  - type: ss
+    server: jp05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 日本电信D 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+    udp: true
+  - type: ss
+    server: 175.45.176.23
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 朝鲜节点 2Mbps 1倍 原生朝鲜（因朝鲜网络较差，不保证可以连接）
+    udp: true
+  - type: ss
+    server: kraz01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 1 3Gbps  2倍
+    udp: true
+  - type: ss
+    server: kraz02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 2 3Gbps  2倍
+    udp: true
+  - type: ss
+    server: kraz03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 3 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: kraz04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 4 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: kraz05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 5 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: kraz06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 6 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: kraz07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 7 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: kraz08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 游戏 韩国Azure 8 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: au01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 澳大利亚 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: ctm01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 澳门 CTM 1Gbps 1倍
+    udp: true
+  - type: ss
+    server: in07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  印度 班加罗尔 C 2Gbps 1倍
+    udp: true
+  - type: ss
+    server: hkt12.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT 1倍节点，5元及无限流量可用
+    udp: true
+  - type: ss
+    server: hkt06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT06  中转  1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkt07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT07  1Gbps 0.5倍  Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkt08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT08打机 1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: 2001:19f0:b001:3a0:5400:2ff:fe35:3926
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 加拿大 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: in01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 1 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: in02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 2 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2400:6180:100:d0::24:1001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: in03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure2 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: in04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure3 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: in05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 A 2Gbps 1倍
+    udp: true
+  - type: ss
+    server: in05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 B 2Gbps 1倍
+    udp: true
+  - type: ss
+    server: in08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 D 2Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2a03:b0c0:3:e0::12e:3001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2a03:b0c0:3:d0::7cf:e001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 分流 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2404:9ec0:100:357b:0000:0000:0000:0001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国洛杉矶 ipv6 10Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2604:a880:800:c1::102:d001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国纽约 ipv6 分流 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2a0d:5600:20::d370:d315
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2a03:b0c0:1:e0::2e4:6001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 分流 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: 2a03:b0c0:2:f0::d3:a001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 荷兰 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: hkt01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT01 1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkt03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT03打机 1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkt04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT04打机 1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkt11.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT11 1Gbps 0.5倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: us01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国01 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国02 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国03 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国04 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国05  1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国06 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us07.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国07 1Gbps 1倍 Netflix  Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us08.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国08 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us09.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国09 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us10.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国10 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us11.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国11 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+    udp: true
+  - type: ss
+    server: us12.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国12 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us13.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国13 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us14.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国14 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us15.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国15 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us16.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国16 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us17.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国17 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us18.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国18 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us19.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国19 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us19.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国20 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us21.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国21 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+    udp: true
+  - type: ss
+    server: us22.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国22 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us23.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国23 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us24.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国24 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us25.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国25 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us26.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国26 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us27.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国27 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us28.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国28 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us29.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国29 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us30.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国30 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us31.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国31 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+    udp: true
+  - type: ss
+    server: us32.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国32 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us33.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国33 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us34.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国34 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us35.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国35 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us36.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国36 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us37.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国37 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us38.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国38 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us39.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国39 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us40.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国40 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: us01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国安畅 1 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+    udp: true
+  - type: ss
+    server: 2604:a880:400:d1::8e8:4001
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 美国纽约 ipv6 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: uk02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 英国 1 3Gbps 1倍 Netflix
+    udp: true
+  - type: ss
+    server: uk03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 英国 2 3Gbps 1倍 Netflix
+    udp: true
+  - type: ss
+    server: uk01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 英国AWS 1Gbps 0.8倍 BBC  Netflix
+    udp: true
+  - type: ss
+    server: ams01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 荷兰1 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: ams02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 荷兰2 3Gbps 1倍
+    udp: true
+  - type: ss
+    server: kr03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国公有可用区A A 1Gbps 1倍 Netflix
+    udp: true
+  - type: ss
+    server: kr04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国公有可用区A B 1Gbps 1倍 Netflix
+    udp: true
+  - type: ss
+    server: kr01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国公有可用区B A 1Gbps  1倍 Netflix
+    udp: true
+  - type: ss
+    server: kr02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国公有可用区B B 1Gbps  1倍 Netflix
+    udp: true
+  - type: ss
+    server: kr03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国备用 03
+    udp: true
+  - type: ss
+    server: kr04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国备用 04
+    udp: true
+  - type: ss
+    server: kr05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 韩国备用 05
+    udp: true
+  - type: ss
+    server: hk01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 1 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hk02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 2 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hk03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 3 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hk04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 4 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hk05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 5 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hk06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港 HKBN 6 1Gbps 1倍 Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: hkaz01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 1 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: hkaz02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 2 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: hkaz03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 3 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: hkaz04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 4 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: hkaz05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 5 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: hkaz06.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港Azure 6 3Gbps 2倍
+    udp: true
+  - type: ss
+    server: wtt01.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港柴湾 5Mbps A Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: wtt02.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港柴湾 5Mbps B Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: wtt03.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港柴湾 5Mbps C Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: wtt04.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港柴湾 5Mbps D Netflix HBO TVB
+    udp: true
+  - type: ss
+    server: wtt05.nurobiz.com
+    port: 39711
+    password: 6vSjH8
+    cipher: chacha20-ietf-poly1305
+    name: 香港柴湾 5Mbps E Netflix HBO TVB
+    udp: true
 Proxy Group:
-  - name: PROXY
+  - name: Proxy
+    type: select
     proxies:
+      - DIRECT
       - 日本-CDN
       - 日本-vmess
-    type: select
-    _index: 0
+      - NTTPC 落地结算A
+      - NTTPC 落地结算B
+      - NTTPC 落地结算C
+      - NTTPC 落地结算D
+      - 东落地-001-HGC-195-1500-10000
+      - 东落地-001-HGC-196-39000-40000
+      - 东落地-001-HGC-197-60000-65535
+      - 东落地-002-HGC-198-1500-10000
+      - 东落地-003-HKT-02-60000-65535
+      - 中日专线 IPLC A0 1000Mbps 5倍
+      - 中日专线 IPLC A1 1000Mbps 5倍
+      - 中日专线 IPLC A2 1000Mbps 5倍
+      - 中日专线 IPLC A3 1000Mbps 5倍
+      - 中日专线 IPLC A4 1000Mbps 5倍
+      - 中日专线 IPLC A5 1000Mbps 5倍
+      - 中日专线 IPLC A6 1000Mbps 5倍
+      - 中日专线 IPLC A7 1000Mbps 5倍
+      - 中日专线 IPLC A8 1000Mbps 5倍
+      - 中日专线 IPLC B1 1000Mbps 5倍
+      - 中日专线 IPLC B2 1000Mbps 5倍
+      - 中日专线 IPLC B3 1000Mbps 5倍
+      - 中日专线 IPLC B4 1000Mbps 5倍
+      - 中日专线 IPLC B5 1000Mbps 5倍
+      - 中港 IEPL A
+      - 中港 IEPL B
+      - 中港 IEPL C
+      - 中港 IEPL 落地结算 kt09
+      - 中港专线 IPLC D0 1000Mbps 5倍
+      - 中港专线 IPLC D1 1000Mbps 5倍
+      - 中港专线 IPLC D10 1000Mbps 5倍
+      - 中港专线 IPLC D2 1000Mbps 5倍
+      - 中港专线 IPLC D3 1000Mbps 5倍
+      - 中港专线 IPLC D4 1000Mbps 5倍
+      - 中港专线 IPLC D5 1000Mbps 5倍
+      - 中港专线 IPLC D6 1000Mbps 5倍
+      - 中港专线 IPLC D7 1000Mbps 5倍
+      - 中港专线 IPLC D8 1000Mbps 5倍
+      - 中港专线 IPLC D9 1000Mbps 5倍
+      - 中韩专线 IPLC A2 20Mbps 5倍
+      - 俄罗斯 CN2 1Gbps 2倍
+      - 俄罗斯 哈巴罗夫斯克 1Gbps 1倍
+      - 俄罗斯GC 1Gbps 1倍
+      - 俄罗斯KB 1Gbps 2倍
+      - 加拿大 1 3Gbps 1倍
+      - 加拿大 2 3Gbps 1倍
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 H
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 I
+      - 台湾HiNet 1 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 10 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 2 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 3 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 4 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 5 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 6 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 7 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 8 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 9 600Mbps 1倍 Netflix 动画疯
+      - 德国 3Gbps 1倍 Netflix A
+      - 德国 3Gbps 1倍 Netflix B
+      - 新加坡公有可用区 A 1Gbps  1倍 新加坡Netflix
+      - 新加坡公有可用区 B 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 C 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 D 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 E 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 F 1Gbps 1倍 新加坡Netflix
+      - 日本 BGP 标准中继 5 10倍
+      - 日本Azure1 3Gbps 2倍
+      - 日本Azure10 3Gbps 2倍
+      - 日本Azure2 3Gbps 2倍 Netflix
+      - 日本Azure3 3Gbps 2倍
+      - 日本Azure4 3Gbps 2倍 Netflix
+      - 日本Azure5 3Gbps 2倍
+      - 日本Azure6 3Gbps 2倍
+      - 日本Azure7 3Gbps 2倍
+      - 日本Azure8 3Gbps 2倍
+      - 日本Azure9 3Gbps 2倍
+      - 日本备用 01
+      - 日本备用 02
+      - 日本备用 03
+      - 日本备用 04
+      - 日本备用 05
+      - 日本备用 06
+      - 日本备用 07
+      - 日本备用 08
+      - 日本电信A 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 日本电信B 3Gbps 1倍 日区 Netflix
+      - 日本电信C 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 A X3
+      - 日本电信D 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 朝鲜节点 2Mbps 1倍 原生朝鲜（因朝鲜网络较差，不保证可以连接）
+      - 游戏 韩国Azure 1 3Gbps  2倍
+      - 游戏 韩国Azure 2 3Gbps  2倍
+      - 游戏 韩国Azure 3 3Gbps 2倍
+      - 游戏 韩国Azure 4 3Gbps 2倍
+      - 游戏 韩国Azure 5 3Gbps 2倍
+      - 游戏 韩国Azure 6 3Gbps 2倍
+      - 游戏 韩国Azure 7 3Gbps 2倍
+      - 游戏 韩国Azure 8 3Gbps 2倍
+      - 澳大利亚 3Gbps 1倍
+      - 澳门 CTM 1Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  印度 班加罗尔 C 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT 1倍节点，5元及无限流量可用
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT06  中转  1Gbps 0.5倍 Netflix HBO
+        TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT07  1Gbps 0.5倍  Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT08打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 加拿大 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 1 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure3 3Gbps 2倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 A 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 B 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 D 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国洛杉矶 ipv6 10Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国纽约 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 荷兰 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT01 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT03打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT04打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT11 1Gbps 0.5倍 Netflix HBO TVB
+      - 美国01 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国02 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国03 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国04 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国05  1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国06 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国07 1Gbps 1倍 Netflix  Hulu HBO CN2-GIA
+      - 美国08 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国09 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国10 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国11 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国12 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国13 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国14 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国15 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国16 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国17 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国18 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国19 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国20 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国21 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国22 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国23 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国24 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国25 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国26 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国27 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国28 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国29 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国30 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国31 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国32 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国33 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国34 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国35 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国36 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国37 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国38 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国39 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国40 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国安畅 1 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国纽约 ipv6 3Gbps 1倍
+      - 英国 1 3Gbps 1倍 Netflix
+      - 英国 2 3Gbps 1倍 Netflix
+      - 英国AWS 1Gbps 0.8倍 BBC  Netflix
+      - 荷兰1 3Gbps 1倍
+      - 荷兰2 3Gbps 1倍
+      - 韩国公有可用区A A 1Gbps 1倍 Netflix
+      - 韩国公有可用区A B 1Gbps 1倍 Netflix
+      - 韩国公有可用区B A 1Gbps  1倍 Netflix
+      - 韩国公有可用区B B 1Gbps  1倍 Netflix
+      - 韩国备用 03
+      - 韩国备用 04
+      - 韩国备用 05
+      - 香港 HKBN 1 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 2 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 3 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 4 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 5 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 6 1Gbps 1倍 Netflix HBO TVB
+      - 香港Azure 1 3Gbps 2倍
+      - 香港Azure 2 3Gbps 2倍
+      - 香港Azure 3 3Gbps 2倍
+      - 香港Azure 4 3Gbps 2倍
+      - 香港Azure 5 3Gbps 2倍
+      - 香港Azure 6 3Gbps 2倍
+      - 香港柴湾 5Mbps A Netflix HBO TVB
+      - 香港柴湾 5Mbps B Netflix HBO TVB
+      - 香港柴湾 5Mbps C Netflix HBO TVB
+      - 香港柴湾 5Mbps D Netflix HBO TVB
+      - 香港柴湾 5Mbps E Netflix HBO TVB
   - name: Final
     type: select
     proxies:
@@ -81,14 +1642,402 @@ Proxy Group:
     type: select
     proxies:
       - PROXY
-      - 日本-CDN
-      - 日本-vmess
+      - NTTPC 落地结算A
+      - NTTPC 落地结算B
+      - NTTPC 落地结算C
+      - NTTPC 落地结算D
+      - 东落地-001-HGC-195-1500-10000
+      - 东落地-001-HGC-196-39000-40000
+      - 东落地-001-HGC-197-60000-65535
+      - 东落地-002-HGC-198-1500-10000
+      - 东落地-003-HKT-02-60000-65535
+      - 中日专线 IPLC A0 1000Mbps 5倍
+      - 中日专线 IPLC A1 1000Mbps 5倍
+      - 中日专线 IPLC A2 1000Mbps 5倍
+      - 中日专线 IPLC A3 1000Mbps 5倍
+      - 中日专线 IPLC A4 1000Mbps 5倍
+      - 中日专线 IPLC A5 1000Mbps 5倍
+      - 中日专线 IPLC A6 1000Mbps 5倍
+      - 中日专线 IPLC A7 1000Mbps 5倍
+      - 中日专线 IPLC A8 1000Mbps 5倍
+      - 中日专线 IPLC B1 1000Mbps 5倍
+      - 中日专线 IPLC B2 1000Mbps 5倍
+      - 中日专线 IPLC B3 1000Mbps 5倍
+      - 中日专线 IPLC B4 1000Mbps 5倍
+      - 中日专线 IPLC B5 1000Mbps 5倍
+      - 中港 IEPL A
+      - 中港 IEPL B
+      - 中港 IEPL C
+      - 中港 IEPL 落地结算 kt09
+      - 中港专线 IPLC D0 1000Mbps 5倍
+      - 中港专线 IPLC D1 1000Mbps 5倍
+      - 中港专线 IPLC D10 1000Mbps 5倍
+      - 中港专线 IPLC D2 1000Mbps 5倍
+      - 中港专线 IPLC D3 1000Mbps 5倍
+      - 中港专线 IPLC D4 1000Mbps 5倍
+      - 中港专线 IPLC D5 1000Mbps 5倍
+      - 中港专线 IPLC D6 1000Mbps 5倍
+      - 中港专线 IPLC D7 1000Mbps 5倍
+      - 中港专线 IPLC D8 1000Mbps 5倍
+      - 中港专线 IPLC D9 1000Mbps 5倍
+      - 中韩专线 IPLC A2 20Mbps 5倍
+      - 俄罗斯 CN2 1Gbps 2倍
+      - 俄罗斯 哈巴罗夫斯克 1Gbps 1倍
+      - 俄罗斯GC 1Gbps 1倍
+      - 俄罗斯KB 1Gbps 2倍
+      - 加拿大 1 3Gbps 1倍
+      - 加拿大 2 3Gbps 1倍
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 H
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 I
+      - 台湾HiNet 1 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 10 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 2 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 3 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 4 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 5 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 6 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 7 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 8 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 9 600Mbps 1倍 Netflix 动画疯
+      - 德国 3Gbps 1倍 Netflix A
+      - 德国 3Gbps 1倍 Netflix B
+      - 新加坡公有可用区 A 1Gbps  1倍 新加坡Netflix
+      - 新加坡公有可用区 B 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 C 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 D 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 E 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 F 1Gbps 1倍 新加坡Netflix
+      - 日本 BGP 标准中继 5 10倍
+      - 日本Azure1 3Gbps 2倍
+      - 日本Azure10 3Gbps 2倍
+      - 日本Azure2 3Gbps 2倍 Netflix
+      - 日本Azure3 3Gbps 2倍
+      - 日本Azure4 3Gbps 2倍 Netflix
+      - 日本Azure5 3Gbps 2倍
+      - 日本Azure6 3Gbps 2倍
+      - 日本Azure7 3Gbps 2倍
+      - 日本Azure8 3Gbps 2倍
+      - 日本Azure9 3Gbps 2倍
+      - 日本备用 01
+      - 日本备用 02
+      - 日本备用 03
+      - 日本备用 04
+      - 日本备用 05
+      - 日本备用 06
+      - 日本备用 07
+      - 日本备用 08
+      - 日本电信A 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 日本电信B 3Gbps 1倍 日区 Netflix
+      - 日本电信C 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 A X3
+      - 日本电信D 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 朝鲜节点 2Mbps 1倍 原生朝鲜（因朝鲜网络较差，不保证可以连接）
+      - 游戏 韩国Azure 1 3Gbps  2倍
+      - 游戏 韩国Azure 2 3Gbps  2倍
+      - 游戏 韩国Azure 3 3Gbps 2倍
+      - 游戏 韩国Azure 4 3Gbps 2倍
+      - 游戏 韩国Azure 5 3Gbps 2倍
+      - 游戏 韩国Azure 6 3Gbps 2倍
+      - 游戏 韩国Azure 7 3Gbps 2倍
+      - 游戏 韩国Azure 8 3Gbps 2倍
+      - 澳大利亚 3Gbps 1倍
+      - 澳门 CTM 1Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  印度 班加罗尔 C 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT 1倍节点，5元及无限流量可用
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT06  中转  1Gbps 0.5倍 Netflix HBO
+        TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT07  1Gbps 0.5倍  Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT08打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 加拿大 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 1 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure3 3Gbps 2倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 A 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 B 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 D 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国洛杉矶 ipv6 10Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国纽约 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 荷兰 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT01 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT03打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT04打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT11 1Gbps 0.5倍 Netflix HBO TVB
+      - 美国01 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国02 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国03 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国04 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国05  1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国06 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国07 1Gbps 1倍 Netflix  Hulu HBO CN2-GIA
+      - 美国08 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国09 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国10 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国11 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国12 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国13 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国14 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国15 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国16 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国17 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国18 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国19 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国20 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国21 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国22 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国23 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国24 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国25 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国26 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国27 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国28 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国29 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国30 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国31 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国32 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国33 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国34 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国35 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国36 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国37 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国38 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国39 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国40 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国安畅 1 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国纽约 ipv6 3Gbps 1倍
+      - 英国 1 3Gbps 1倍 Netflix
+      - 英国 2 3Gbps 1倍 Netflix
+      - 英国AWS 1Gbps 0.8倍 BBC  Netflix
+      - 荷兰1 3Gbps 1倍
+      - 荷兰2 3Gbps 1倍
+      - 韩国公有可用区A A 1Gbps 1倍 Netflix
+      - 韩国公有可用区A B 1Gbps 1倍 Netflix
+      - 韩国公有可用区B A 1Gbps  1倍 Netflix
+      - 韩国公有可用区B B 1Gbps  1倍 Netflix
+      - 韩国备用 03
+      - 韩国备用 04
+      - 韩国备用 05
+      - 香港 HKBN 1 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 2 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 3 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 4 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 5 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 6 1Gbps 1倍 Netflix HBO TVB
+      - 香港Azure 1 3Gbps 2倍
+      - 香港Azure 2 3Gbps 2倍
+      - 香港Azure 3 3Gbps 2倍
+      - 香港Azure 4 3Gbps 2倍
+      - 香港Azure 5 3Gbps 2倍
+      - 香港Azure 6 3Gbps 2倍
+      - 香港柴湾 5Mbps A Netflix HBO TVB
+      - 香港柴湾 5Mbps B Netflix HBO TVB
+      - 香港柴湾 5Mbps C Netflix HBO TVB
+      - 香港柴湾 5Mbps D Netflix HBO TVB
+      - 香港柴湾 5Mbps E Netflix HBO TVB
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
-      - 日本-CDN
-      - 日本-vmess
+      - NTTPC 落地结算A
+      - NTTPC 落地结算B
+      - NTTPC 落地结算C
+      - NTTPC 落地结算D
+      - 东落地-001-HGC-195-1500-10000
+      - 东落地-001-HGC-196-39000-40000
+      - 东落地-001-HGC-197-60000-65535
+      - 东落地-002-HGC-198-1500-10000
+      - 东落地-003-HKT-02-60000-65535
+      - 中日专线 IPLC A0 1000Mbps 5倍
+      - 中日专线 IPLC A1 1000Mbps 5倍
+      - 中日专线 IPLC A2 1000Mbps 5倍
+      - 中日专线 IPLC A3 1000Mbps 5倍
+      - 中日专线 IPLC A4 1000Mbps 5倍
+      - 中日专线 IPLC A5 1000Mbps 5倍
+      - 中日专线 IPLC A6 1000Mbps 5倍
+      - 中日专线 IPLC A7 1000Mbps 5倍
+      - 中日专线 IPLC A8 1000Mbps 5倍
+      - 中日专线 IPLC B1 1000Mbps 5倍
+      - 中日专线 IPLC B2 1000Mbps 5倍
+      - 中日专线 IPLC B3 1000Mbps 5倍
+      - 中日专线 IPLC B4 1000Mbps 5倍
+      - 中日专线 IPLC B5 1000Mbps 5倍
+      - 中港 IEPL A
+      - 中港 IEPL B
+      - 中港 IEPL C
+      - 中港 IEPL 落地结算 kt09
+      - 中港专线 IPLC D0 1000Mbps 5倍
+      - 中港专线 IPLC D1 1000Mbps 5倍
+      - 中港专线 IPLC D10 1000Mbps 5倍
+      - 中港专线 IPLC D2 1000Mbps 5倍
+      - 中港专线 IPLC D3 1000Mbps 5倍
+      - 中港专线 IPLC D4 1000Mbps 5倍
+      - 中港专线 IPLC D5 1000Mbps 5倍
+      - 中港专线 IPLC D6 1000Mbps 5倍
+      - 中港专线 IPLC D7 1000Mbps 5倍
+      - 中港专线 IPLC D8 1000Mbps 5倍
+      - 中港专线 IPLC D9 1000Mbps 5倍
+      - 中韩专线 IPLC A2 20Mbps 5倍
+      - 俄罗斯 CN2 1Gbps 2倍
+      - 俄罗斯 哈巴罗夫斯克 1Gbps 1倍
+      - 俄罗斯GC 1Gbps 1倍
+      - 俄罗斯KB 1Gbps 2倍
+      - 加拿大 1 3Gbps 1倍
+      - 加拿大 2 3Gbps 1倍
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 H
+      - 台湾 电信 600Mbps 1倍 Netflix 动画疯 I
+      - 台湾HiNet 1 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 10 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 2 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 3 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 4 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 5 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 6 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 7 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 8 600Mbps 1倍 Netflix 动画疯
+      - 台湾HiNet 9 600Mbps 1倍 Netflix 动画疯
+      - 德国 3Gbps 1倍 Netflix A
+      - 德国 3Gbps 1倍 Netflix B
+      - 新加坡公有可用区 A 1Gbps  1倍 新加坡Netflix
+      - 新加坡公有可用区 B 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 C 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 D 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 E 1Gbps 1倍 新加坡Netflix
+      - 新加坡公有可用区 F 1Gbps 1倍 新加坡Netflix
+      - 日本 BGP 标准中继 5 10倍
+      - 日本Azure1 3Gbps 2倍
+      - 日本Azure10 3Gbps 2倍
+      - 日本Azure2 3Gbps 2倍 Netflix
+      - 日本Azure3 3Gbps 2倍
+      - 日本Azure4 3Gbps 2倍 Netflix
+      - 日本Azure5 3Gbps 2倍
+      - 日本Azure6 3Gbps 2倍
+      - 日本Azure7 3Gbps 2倍
+      - 日本Azure8 3Gbps 2倍
+      - 日本Azure9 3Gbps 2倍
+      - 日本备用 01
+      - 日本备用 02
+      - 日本备用 03
+      - 日本备用 04
+      - 日本备用 05
+      - 日本备用 06
+      - 日本备用 07
+      - 日本备用 08
+      - 日本电信A 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 日本电信B 3Gbps 1倍 日区 Netflix
+      - 日本电信C 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 A X3
+      - 日本电信D 3Gbps 1倍 日区 Netflix - 日本东京 落地结算 B X3
+      - 朝鲜节点 2Mbps 1倍 原生朝鲜（因朝鲜网络较差，不保证可以连接）
+      - 游戏 韩国Azure 1 3Gbps  2倍
+      - 游戏 韩国Azure 2 3Gbps  2倍
+      - 游戏 韩国Azure 3 3Gbps 2倍
+      - 游戏 韩国Azure 4 3Gbps 2倍
+      - 游戏 韩国Azure 5 3Gbps 2倍
+      - 游戏 韩国Azure 6 3Gbps 2倍
+      - 游戏 韩国Azure 7 3Gbps 2倍
+      - 游戏 韩国Azure 8 3Gbps 2倍
+      - 澳大利亚 3Gbps 1倍
+      - 澳门 CTM 1Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  印度 班加罗尔 C 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT 1倍节点，5元及无限流量可用
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT06  中转  1Gbps 0.5倍 Netflix HBO
+        TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT07  1Gbps 0.5倍  Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube  香港HKT08打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 加拿大 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 1 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure2 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 孟买Azure3 3Gbps 2倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 A 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 B 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 印度 班加罗尔 D 2Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 德国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国洛杉矶 ipv6 10Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 美国纽约 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 英国 ipv6 分流 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 荷兰 ipv6 3Gbps 1倍
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT01 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT03打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT04打机 1Gbps 0.5倍 Netflix HBO TVB
+      - 特殊地区用途节点连接较慢 小白用户请勿使用此节点观看 Youtube 香港HKT11 1Gbps 0.5倍 Netflix HBO TVB
+      - 美国01 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国02 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国03 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国04 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国05  1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国06 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国07 1Gbps 1倍 Netflix  Hulu HBO CN2-GIA
+      - 美国08 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国09 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国10 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国11 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国12 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国13 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国14 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国15 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国16 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国17 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国18 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国19 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国20 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国21 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国22 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国23 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国24 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国25 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国26 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国27 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国28 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国29 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国30 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国31 1Gbps 1倍 Netflix Hulu HBO CN2-GIA - 美西家宽落地 A
+      - 美国32 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国33 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国34 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国35 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国36 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国37 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国38 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国39 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国40 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国安畅 1 1Gbps 1倍 Netflix Hulu HBO CN2-GIA
+      - 美国纽约 ipv6 3Gbps 1倍
+      - 英国 1 3Gbps 1倍 Netflix
+      - 英国 2 3Gbps 1倍 Netflix
+      - 英国AWS 1Gbps 0.8倍 BBC  Netflix
+      - 荷兰1 3Gbps 1倍
+      - 荷兰2 3Gbps 1倍
+      - 韩国公有可用区A A 1Gbps 1倍 Netflix
+      - 韩国公有可用区A B 1Gbps 1倍 Netflix
+      - 韩国公有可用区B A 1Gbps  1倍 Netflix
+      - 韩国公有可用区B B 1Gbps  1倍 Netflix
+      - 韩国备用 03
+      - 韩国备用 04
+      - 韩国备用 05
+      - 香港 HKBN 1 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 2 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 3 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 4 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 5 1Gbps 1倍 Netflix HBO TVB
+      - 香港 HKBN 6 1Gbps 1倍 Netflix HBO TVB
+      - 香港Azure 1 3Gbps 2倍
+      - 香港Azure 2 3Gbps 2倍
+      - 香港Azure 3 3Gbps 2倍
+      - 香港Azure 4 3Gbps 2倍
+      - 香港Azure 5 3Gbps 2倍
+      - 香港Azure 6 3Gbps 2倍
+      - 香港柴湾 5Mbps A Netflix HBO TVB
+      - 香港柴湾 5Mbps B Netflix HBO TVB
+      - 香港柴湾 5Mbps C Netflix HBO TVB
+      - 香港柴湾 5Mbps D Netflix HBO TVB
+      - 香港柴湾 5Mbps E Netflix HBO TVB
   - name: Hijacking
     type: select
     proxies:
