@@ -1426,7 +1426,7 @@ Proxy:
     name: 香港柴湾 5Mbps E Netflix HBO TVB
     udp: true
 Proxy Group:
-  - name: Proxy
+  - name: PROXY
     type: select
     proxies:
       - DIRECT
@@ -1642,6 +1642,7 @@ Proxy Group:
     type: select
     proxies:
       - PROXY
+      - DIRECT
       - NTTPC 落地结算A
       - NTTPC 落地结算B
       - NTTPC 落地结算C
