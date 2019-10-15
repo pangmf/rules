@@ -42,24 +42,6 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - name: 日本-vmess
-    type: vmess
-    server: 108.61.162.139
-    port: "59765"
-    uuid: 97a4b8a6-e539-11e9-b715-5600025553a7
-    alterId: "32"
-    cipher: auto
-  - name: 日本-CDN
-    type: vmess
-    server: www.fegan.xyz
-    port: "53"
-    uuid: 36bea1a2-e537-11e9-8dc1-5600025553a7
-    alterId: "32"
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /cknGxuV7/
   - type: ss
     server: nttpc01.nurobiz.com
     port: 39711
@@ -1430,8 +1412,6 @@ Proxy Group:
     type: select
     proxies:
       - DIRECT
-      - 日本-CDN
-      - 日本-vmess
       - NTTPC 落地结算A
       - NTTPC 落地结算B
       - NTTPC 落地结算C
