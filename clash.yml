@@ -49,6 +49,25 @@ Proxy:
     cipher: chacha20-ietf-poly1305
     name: 香港柴湾 5Mbps E Netflix HBO TVB
     udp: true
+  - name: "123"
+    type: vmess
+    server: asdfasdf
+    port: asdfasdf
+    uuid: asdfasdf
+    alterId: asdfasdf
+    cipher: "auto"
+    _index: 1
+  - name: "3123"
+    type: vmess
+    server: "123132"
+    port: qweqwe
+    uuid: qweqew
+    alterId: fasdf
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: "123123"
 Proxy Group:
   - name: PROXY
     type: select
