@@ -42,38 +42,40 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - type: ss
-    server: wtt05.nurobiz.com
-    port: 39711
-    password: 6vSjH8
-    cipher: chacha20-ietf-poly1305
-    name: 香港柴湾 5Mbps E Netflix HBO TVB
-    udp: true
-  - name: "123"
+  - name: "CDN"
     type: vmess
-    server: asdfasdf
-    port: asdfasdf
-    uuid: asdfasdf
-    alterId: asdfasdf
-    cipher: "auto"
-    _index: 1
-  - name: "3123"
-    type: vmess
-    server: "123132"
-    port: qweqwe
-    uuid: qweqew
-    alterId: fasdf
+    server: "www.fegan.site"
+    port: 80
+    uuid: 1a104742-f345-11e9-a3eb-560002600a1a
+    alterId: 16
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: "123123"
+    ws-path: "/mRP6Nywe/"
+  - name: "vmess"
+    type: vmess
+    server: 108.61.245.233
+    port: 5114
+    uuid: 38da46a0-f345-11e9-ace3-560002600a1a
+    alterId: 16
+    cipher: "auto"
+    _index: 1
+  - type: ss
+    server: 108.61.245.233
+    port: 53067
+    password: cGNVzRrJsLFp8YAD
+    cipher: chacha20-ietf-poly1305
+    name: ss
+    udp: true
 Proxy Group:
   - name: PROXY
     type: select
     proxies:
       - DIRECT
-      - 
+      - CDN
+      - vmess
+      - ss
   - name: Final
     type: select
     proxies:
@@ -89,12 +91,16 @@ Proxy Group:
     proxies:
       - PROXY
       - DIRECT
-
+      - CDN
+      - vmess
+      - ss
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
-
+      - CDN
+      - vmess
+      - ss
   - name: Hijacking
     type: select
     proxies:
