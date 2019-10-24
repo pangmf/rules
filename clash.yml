@@ -42,40 +42,32 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - name: "CDN"
+  - name: "GCP-tw-CDN"
     type: vmess
-    server: "www.fegan.site"
-    port: 82
-    uuid: 1a104742-f345-11e9-a3eb-560002600a1a
+    server: "gcp.fegan.site"
+    port: 22211
+    uuid: e008a354-f665-11e9-be2a-42010a8c0003
     alterId: 16
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: "/mRP6Nywe/"
-  - name: "vmess"
+    ws-path: "/pq2wLCcO/"
+  - name: "GCP-tw-tcp"
     type: vmess
-    server: 108.61.245.233
-    port: 5111
-    uuid: 38da46a0-f345-11e9-ace3-560002600a1a
+    server: 34.80.15.12
+    port: 2919
+    uuid: 36a17844-f666-11e9-be2a-42010a8c0003
     alterId: 16
     cipher: "auto"
     _index: 1
-  - type: ss
-    server: 108.61.245.233
-    port: 53067
-    password: cGNVzRrJsLFp8YAD
-    cipher: chacha20-ietf-poly1305
-    name: ss
-    udp: true
 Proxy Group:
   - name: PROXY
     type: select
     proxies:
       - DIRECT
-      - CDN
-      - vmess
-      - ss
+      - GCP-tw-CDN
+      - GCP-tw-tcp
   - name: Final
     type: select
     proxies:
@@ -91,16 +83,14 @@ Proxy Group:
     proxies:
       - PROXY
       - DIRECT
-      - CDN
-      - vmess
-      - ss
+      - GCP-tw-CDN
+      - GCP-tw-tcp
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
-      - CDN
-      - vmess
-      - ss
+      - GCP-tw-CDN
+      - GCP-tw-tcp
   - name: Hijacking
     type: select
     proxies:
