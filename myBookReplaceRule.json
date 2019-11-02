@@ -395,13 +395,4 @@
     "replacement": "",
     "serialNumber": 45
   },
-  {
-    "enable": true,
-    "id": 38,
-    "isRegex": true,
-    "regex": "(http://)?([a-zA-Z]+\\.)+[a-zA-Z]+|(https?\\:)?(//)?[WwｗＷ]{1,3}.*",
-    "replaceSummary": "去网址",
-    "replacement": "",
-    "serialNumber": 46
-  }
 ]
