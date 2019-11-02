@@ -44,7 +44,7 @@ cfw-latency-timeout: 5000
 Proxy:
   - name: "GCP-HK-ws"
     type: vmess
-    server: "gcp.fegan.site"
+    server: "www.fegan.xyz"
     port: 17683
     uuid: 4335cf7e-f675-11e9-8ebc-42010aaa0003
     alterId: 32
@@ -52,7 +52,7 @@ Proxy:
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: "/wK0njtDB/"
+    ws-path: "/TbIEaxLq/"
   - name: "GCP-HK-tcp"
     type: vmess
     server: 34.92.172.192
