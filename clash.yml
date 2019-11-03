@@ -65,9 +65,9 @@ Proxy Group:
   - name: PROXY
     type: select
     proxies:
-      - DIRECT
       - GCP-HK-ws
       - GCP-HK-tcp
+      - DIRECT
   - name: Final
     type: select
     proxies:
