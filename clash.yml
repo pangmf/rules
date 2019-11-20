@@ -81,8 +81,8 @@ Proxy Group:
   - name: ForeignMedia
     type: select
     proxies:
-      - GCP-HK-tcp
       - GCP-HK-ws
+      - GCP-HK-tcp
       - DIRECT
   - name: DomesticMedia
     type: select
