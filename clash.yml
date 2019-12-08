@@ -1,20 +1,29 @@
 port: 7890
 socks-port: 7891
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: error
 external-controller: 127.0.0.1:9090
 experimental:
   ignore-resolve-fail: true
-dns: null
-enable: true
-ipv6: false
-listen: 0.0.0.0:53
-enhanced-mode: fake-ip
-nameserver:
-  - 223.5.5.5
-  - 117.50.10.10
-  - 119.29.29.29
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://edns.233py.com/dns-query
+    - tls：//edns.233py.com:853
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - tcp://1.1.1.1
+    - tls://1.0.0.1:853
+  fallback-filter:
+    geoip: true
+    ipcidr: 
+      - 240.0.0.0/4
 cfw-bypass:
   - qq.com
   - music.163.com
@@ -929,6 +938,7 @@ Rule:
   - DOMAIN-SUFFIX,whatismyip.com,DIRECT
   - DOMAIN,ip.bjango.com,DIRECT
   - DOMAIN,speedtest.macpaw.com,DIRECT
+  - DOMAIN,connect.rom.miui.com,DIRECT
   - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-SUFFIX,cailianpress.com,DIRECT
   - DOMAIN-SUFFIX,chushou.tv,DIRECT
