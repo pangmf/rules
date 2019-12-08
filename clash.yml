@@ -938,7 +938,6 @@ Rule:
   - DOMAIN-SUFFIX,whatismyip.com,DIRECT
   - DOMAIN,ip.bjango.com,DIRECT
   - DOMAIN,speedtest.macpaw.com,DIRECT
-  - DOMAIN,connect.rom.miui.com,DIRECT
   - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-SUFFIX,cailianpress.com,DIRECT
   - DOMAIN-SUFFIX,chushou.tv,DIRECT
