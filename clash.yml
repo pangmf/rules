@@ -10,7 +10,7 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:53
-  enhanced-mode: fake-ip
+  enhanced-mode: redir-host
   nameserver:
     - https://edns.233py.com/dns-query
     - tls：//edns.233py.com:853
