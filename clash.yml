@@ -88,11 +88,6 @@ Proxy Group:
     proxies:
       - DIRECT
       - PROXY
-  - name: Onedrive
-    type: select
-    proxies:
-      - DIRECT
-      - PROXY
   - name: ForeignMedia
     type: select
     proxies:
@@ -111,7 +106,6 @@ Proxy Group:
       - REJECT
       - DIRECT
 Rule:
-  - DOMAIN-SUFFIX,sharepoint.com,Onedrive
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
   - DOMAIN-SUFFIX,285680.com,Hijacking
@@ -858,6 +852,7 @@ Rule:
   - DOMAIN-SUFFIX,outlookmobile.com,DIRECT
   - DOMAIN-SUFFIX,sfx.ms,DIRECT
   - DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,visualstudio.com,DIRECT
   - DOMAIN-SUFFIX,windows.net,DIRECT
   - DOMAIN-KEYWORD,officecdn,DIRECT
