@@ -81,6 +81,11 @@ Proxy Group:
     proxies:
       - PROXY
       - DIRECT
+  - name: GCM
+    type: select
+    proxies:
+      - DIRECT
+      - PROXY
   - name: Apple
     type: select
     proxies:
@@ -104,6 +109,7 @@ Proxy Group:
       - REJECT
       - DIRECT
 Rule:
+  - DOMAIN-SUFFIX,mtalk.google.com,GCM
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
   - DOMAIN-SUFFIX,285680.com,Hijacking
