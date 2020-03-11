@@ -2,14 +2,8 @@
 127.0.0.1	localhost
 # Localhost (DO NOT REMOVE) End
 
-# Google Service:Google Play Start
-172.217.5.135	play.google.com
-172.217.5.136	android.clients.google.com
-108.177.121.201	play.googleapis.com
-172.217.5.137	alt7-mtalk.google.com
-# Google Service:Google Play End
-
 # Google:gcm/fcm Start
+172.217.5.137	  alt7-mtalk.google.com
 108.177.97.188	mobile-gtalk.l.google.com
 108.177.97.188	mtalk.google.com
 108.177.97.188	mtalk4.google.com
@@ -19,5 +13,5 @@
 108.177.97.188	gcm-preprod.l.google.com
 108.177.97.188	gcm-preprod.googleapis.com
 108.177.97.188	fcm.googleapis.com
-216.58.199.10	gcm-http.googleapis.com
+216.58.199.10	  gcm-http.googleapis.com
 # Google:gcm/fcm End
