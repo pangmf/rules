@@ -48,7 +48,6 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-Proxy:
   - {"name":"🇷🇺 [V1][中转]俄罗斯 01-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22002,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
   - {"name":"🇷🇺 [V1][中转]俄罗斯 02-1.0x","type":"vmess","server":"hzvds.moecat.pw","port":22003,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
   - {"name":"🇹🇼 [V1][中转]台湾 01-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":103,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
