@@ -48,33 +48,81 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - name: "GCP-HK-ws"
-    type: vmess
-    server: "www.fegan.xyz"
-    port: 17683
-    uuid: 4335cf7e-f675-11e9-8ebc-42010aaa0003
-    alterId: 32
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: "/TbIEaxLq/"
-    ws-headers:
-      Host: www.fegan.xyz
-  - name: "GCP-HK-tcp"
-    type: vmess
-    server: 34.92.172.192
-    port: 36735
-    uuid: 133922c0-f676-11e9-8ebc-42010aaa0003
-    alterId: 32
-    cipher: "auto"
-    _index: 1
+Proxy:
+  - {"name":"🇷🇺 [V1][中转]俄罗斯 01-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22002,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇷🇺 [V1][中转]俄罗斯 02-1.0x","type":"vmess","server":"hzvds.moecat.pw","port":22003,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇹🇼 [V1][中转]台湾 01-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":103,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇹🇼 [V1][中转]台湾 03-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22000,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇹🇷 [V1][中转]土耳其 01-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":11104,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇸🇬 [V1][中转]新加坡 01-1.0x ","type":"vmess","server":"hzvds.moecat.pw","port":22017,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"hkaz2.moecat.pw"}}
+  - {"name":"🇸🇬 [V1][中转]新加坡 02-1.0x ","type":"vmess","server":"sqvds.moecat.pw","port":112,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇸🇬 [V1][中转]新加坡 03-1.0x","type":"vmess","server":"hzvds.moecat.pw","port":22012,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 01-1.0x NF 100M","type":"vmess","server":"hzvds.moecat.pw","port":22004,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 02-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22013,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 03-1.0x","type":"vmess","server":"sqvds.moecat.pw","port":11105,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 04-1.0x","type":"vmess","server":"sqvds.moecat.pw","port":146,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/jpm247","ws-headers":{"Host":"hkaz2.moecat.pw"}}
+  - {"name":"🇯🇵 [V1][中转]日本 08-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22007,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 09-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22008,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V1][中转]日本 10-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22001,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇫🇷 [V1][中转]法国 01-1.0x","type":"vmess","server":"qzyd1.ssrpass.xyz","port":24779,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":4,"cipher":"auto","udp":true}
+  - {"name":"🇺🇲 [V1][中转]美国 01-1.0x ","type":"vmess","server":"hzvds.moecat.pw","port":22011,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇺🇲 [V1][中转]美国 02-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":11107,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇺🇲 [V1][中转]美国 03-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22014,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇺🇲 [V1][中转]美国 04-1.0x","type":"vmess","server":"sqvds.moecat.pw","port":18889,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇺🇲 [V1][中转]美国 05-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":11008,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇬🇧 [V1][中转]英国 01-1.0x NF","type":"vmess","server":"qzyd1.ssrpass.xyz","port":22727,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":4,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 [V1][中转]香港 04-1.5x NF 100M","type":"vmess","server":"sqvds.moecat.pw","port":107,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇷🇺 [V2][中转]俄罗斯 03-1.0x","type":"vmess","server":"bgpcu2.moecat.pw","port":51045,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V2][中转]日本 05-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22005,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V2][中转]日本 06-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22006,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇯🇵 [V2][中转]日本 07-1.0x NF","type":"vmess","server":"sqvds.moecat.pw","port":102,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇰🇷 [V2][中转]韩国 01-1.0x","type":"vmess","server":"sqvds.moecat.pw","port":116,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇰🇷 [V2][中转]韩国 02-1.0x NF","type":"vmess","server":"hzvds.moecat.pw","port":22015,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇭🇰 [V2][中转]香港 01-1.5x NF","type":"vmess","server":"sqvds.moecat.pw","port":11001,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇭🇰 [V2][中转]香港 03-1.5x NF","type":"vmess","server":"sqvds.moecat.pw","port":11363,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true}
+  - {"name":"🇭🇰 [V2][中转]香港 05-1.5x NF","type":"vmess","server":"sqvds.moecat.pw","port":22010,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇭🇰 [V2][中转]香港 08-1.5x NF","type":"vmess","server":"sqvds.moecat.pw","port":113,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
+  - {"name":"🇭🇰 [V2][中转]香港 09-1.5x NF","type":"vmess","server":"hzvds.moecat.pw","port":22010,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com"}}
+  - {"name":"🇭🇰 [V2][中转]香港 10-1.5x NF ","type":"vmess","server":"hzvds.moecat.pw","port":22009,"uuid":"ed2ce587-304f-38fb-b587-e1318fd3dbed","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/news","ws-headers":{"Host":"download.windowsupdate.com:80"}}
 Proxy Group:
   - name: PROXY
     type: select
     proxies:
-      - GCP-HK-ws
-      - GCP-HK-tcp
+      - '🇷🇺 [V1][中转]俄罗斯 01-1.0x NF'
+      - '🇷🇺 [V1][中转]俄罗斯 02-1.0x'
+      - '🇹🇼 [V1][中转]台湾 01-1.0x NF'
+      - '🇹🇼 [V1][中转]台湾 03-1.0x NF'
+      - '🇹🇷 [V1][中转]土耳其 01-1.0x NF'
+      - '🇸🇬 [V1][中转]新加坡 01-1.0x '
+      - '🇸🇬 [V1][中转]新加坡 02-1.0x '
+      - '🇸🇬 [V1][中转]新加坡 03-1.0x'
+      - '🇯🇵 [V1][中转]日本 01-1.0x NF 100M'
+      - '🇯🇵 [V1][中转]日本 02-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 03-1.0x'
+      - '🇯🇵 [V1][中转]日本 04-1.0x'
+      - '🇯🇵 [V1][中转]日本 08-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 09-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 10-1.0x NF'
+      - '🇫🇷 [V1][中转]法国 01-1.0x'
+      - '🇺🇲 [V1][中转]美国 01-1.0x '
+      - '🇺🇲 [V1][中转]美国 02-1.0x NF'
+      - '🇺🇲 [V1][中转]美国 03-1.0x NF'
+      - '🇺🇲 [V1][中转]美国 04-1.0x'
+      - '🇺🇲 [V1][中转]美国 05-1.0x NF'
+      - '🇬🇧 [V1][中转]英国 01-1.0x NF'
+      - '🇭🇰 [V1][中转]香港 04-1.5x NF 100M'
+      - '🇷🇺 [V2][中转]俄罗斯 03-1.0x'
+      - '🇯🇵 [V2][中转]日本 05-1.0x NF'
+      - '🇯🇵 [V2][中转]日本 06-1.0x NF'
+      - '🇯🇵 [V2][中转]日本 07-1.0x NF'
+      - '🇰🇷 [V2][中转]韩国 01-1.0x'
+      - '🇰🇷 [V2][中转]韩国 02-1.0x NF'
+      - '🇭🇰 [V2][中转]香港 01-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 03-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 05-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 08-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 09-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 10-1.5x NF '
       - DIRECT
   - name: Final
     type: select
@@ -89,15 +137,47 @@ Proxy Group:
   - name: ForeignMedia
     type: select
     proxies:
-      - GCP-HK-ws
-      - GCP-HK-tcp
+      - '🇷🇺 [V1][中转]俄罗斯 01-1.0x NF'
+      - '🇷🇺 [V1][中转]俄罗斯 02-1.0x'
+      - '🇹🇼 [V1][中转]台湾 01-1.0x NF'
+      - '🇹🇼 [V1][中转]台湾 03-1.0x NF'
+      - '🇹🇷 [V1][中转]土耳其 01-1.0x NF'
+      - '🇸🇬 [V1][中转]新加坡 01-1.0x '
+      - '🇸🇬 [V1][中转]新加坡 02-1.0x '
+      - '🇸🇬 [V1][中转]新加坡 03-1.0x'
+      - '🇯🇵 [V1][中转]日本 01-1.0x NF 100M'
+      - '🇯🇵 [V1][中转]日本 02-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 03-1.0x'
+      - '🇯🇵 [V1][中转]日本 04-1.0x'
+      - '🇯🇵 [V1][中转]日本 08-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 09-1.0x NF'
+      - '🇯🇵 [V1][中转]日本 10-1.0x NF'
+      - '🇫🇷 [V1][中转]法国 01-1.0x'
+      - '🇺🇲 [V1][中转]美国 01-1.0x '
+      - '🇺🇲 [V1][中转]美国 02-1.0x NF'
+      - '🇺🇲 [V1][中转]美国 03-1.0x NF'
+      - '🇺🇲 [V1][中转]美国 04-1.0x'
+      - '🇺🇲 [V1][中转]美国 05-1.0x NF'
+      - '🇬🇧 [V1][中转]英国 01-1.0x NF'
+      - '🇭🇰 [V1][中转]香港 04-1.5x NF 100M'
+      - '🇷🇺 [V2][中转]俄罗斯 03-1.0x'
+      - '🇯🇵 [V2][中转]日本 05-1.0x NF'
+      - '🇯🇵 [V2][中转]日本 06-1.0x NF'
+      - '🇯🇵 [V2][中转]日本 07-1.0x NF'
+      - '🇰🇷 [V2][中转]韩国 01-1.0x'
+      - '🇰🇷 [V2][中转]韩国 02-1.0x NF'
+      - '🇭🇰 [V2][中转]香港 01-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 03-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 05-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 08-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 09-1.5x NF'
+      - '🇭🇰 [V2][中转]香港 10-1.5x NF '
       - DIRECT
   - name: DomesticMedia
     type: select
     proxies:
       - DIRECT
-      - GCP-HK-ws
-      - GCP-HK-tcp
+      - PROXY
   - name: Hijacking
     type: select
     proxies:
