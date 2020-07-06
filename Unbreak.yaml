@@ -1,0 +1,30 @@
+payload:
+  # Unbreak
+  # > General
+  # USER-AGENT,archero*
+  # USER-AGENT,coffeecorp*
+  # USER-AGENT,Coffee%20Corp*
+  # USER-AGENT,restaurant-mobile*
+  - DOMAIN,app.adjust.com
+  # > Alibaba
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,sycm.mmstat.com
+  # > Google
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,mtalk-alt1.google.com
+  - DOMAIN,mtalk-alt2.google.com
+  - DOMAIN,mtalk-alt3.google.com
+  - DOMAIN,mtalk-alt4.google.com
+  - DOMAIN,mtalk-alt5.google.com
+  - DOMAIN,mtalk-alt6.google.com
+  - DOMAIN,mtalk-alt7.google.com
+  # > Tencent
+  - DOMAIN,livew.l.qq.com
+  - DOMAIN,vd.l.qq.com
+  # > Strava
+  - DOMAIN,analytics.strava.com
+  # > Umeng
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
