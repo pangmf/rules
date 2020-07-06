@@ -218,9 +218,7 @@ proxy-groups:
   - name: "Fallback"
     type: fallback
     proxies:
-      - HK
-      - US
-      - SG
+      - DogeCloud-Sub
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
