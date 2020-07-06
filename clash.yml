@@ -219,7 +219,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Proxies
       - 🇸🇬 NeteaseUnblock-SG-CN2GIA
       - 🇨🇳 NeteaseUnblock-CN-HHHT
       - 🇨🇳 NeteaseUnblock-CN-SQ
