@@ -61,8 +61,8 @@ interface-name: en0
 # Non-wildcard domain names has a higher priority than wildcard domain names
 # e.g. foo.example.com > *.example.com > .example.com
 # P.S. +.foo.com equals to .foo.com and foo.com
-# hosts:
-  # 'mtalk.google.com': 108.177.125.188
+hosts:
+  'mtalk.google.com': 108.177.125.188
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
@@ -243,7 +243,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Unbreak.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://raw.githubusercontent.com/pangmf/rules/master/Unbreak.yaml
     interval: 86400
 
   Streaming:
