@@ -229,9 +229,6 @@ proxy-groups:
     type: select
     proxies:
       - Fallback
-      - HK
-      - US
-      - SG
       - DogeCloud-Sub
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
@@ -246,16 +243,14 @@ proxy-groups:
     type: select
     proxies:
       - PROXY
-      - HK
-      - US
-      - SG
+      - DogeCloud-Sub
 
   # 中国流媒体服务（面向海外版本）
   - name: "StreamingSE"
     type: select
     proxies:
       - DIRECT
-      - HK
+      - DogeCloud-Sub
 
   # 手动选择节点订阅
   - name: "DogeCloud-Sub"
