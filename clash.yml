@@ -184,7 +184,6 @@ proxy-groups:
     type: select
     proxies:
       - Fallback
-    use:
       - DogeCloud-Sub
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
@@ -197,8 +196,6 @@ proxy-groups:
   # 国际流媒体服务
   - name: "Streaming"
     type: select
-    proxies:
-      - Fallback
     use:
       - DogeCloud-Sub
 
