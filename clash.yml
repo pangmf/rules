@@ -198,7 +198,7 @@ proxy-groups:
   - name: "Streaming"
     type: select
     proxies:
-      - DIRECT
+      - Fallback
     use:
       - DogeCloud-Sub
 
