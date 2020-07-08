@@ -172,18 +172,18 @@ proxy-groups:
 #
 
   # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
-  - name: "Fallback"
-    type: fallback
-    use:
-      - DogeCloud-Sub
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+  # - name: "Fallback"
+  #   type: fallback
+  #   use:
+  #     - DogeCloud-Sub
+  #   url: 'http://www.gstatic.com/generate_204'
+  #   interval: 300
 
   # 代理节点选择
   - name: "PROXY"
     type: select
     proxies:
-      - Fallback
+      - DIRECT
       - DogeCloud-Sub
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
