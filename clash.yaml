@@ -150,7 +150,7 @@ proxy-providers:
 
   DogeCloud-Sub: # 机场订阅链接
     type: http
-    url: "https://suo.yt/NvV67NJ"
+    url: "https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fsub.dogesub.xyz%2Flink%2FbVlGl91ykUcytcjL%3Fsub%3D3%26extend%3D1&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     interval: 3600
     path: ./Proxy/ProxyList.yaml # 不同机场不同命名
     health-check:
