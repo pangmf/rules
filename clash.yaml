@@ -307,7 +307,7 @@ rules:
   - RULE-SET,StreamingSE,StreamingSE
   
   # (ADs)
-  - RULE-SET,AdBlock,AdBlock
+  # - RULE-SET,AdBlock,AdBlock
   
   # (Netease Music)
   - RULE-SET,Netease Music,Netease Music
