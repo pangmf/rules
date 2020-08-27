@@ -297,6 +297,8 @@ rule-providers:
 rules:
   # Wechat Fcm
   - DOMAIN,dns.weixin.qq.com,PROXY
+  - DOMAIN,szsupport.weixin.qq.com,PROXY
+  - 203.205.235.132
 
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
