@@ -295,6 +295,9 @@ rule-providers:
 
 # 规则
 rules:
+  # Wechat Fcm
+  - DOMAIN-SUFFIX,dns.weixin.qq.com,PROXY
+  
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
 
