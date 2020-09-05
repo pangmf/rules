@@ -1,2 +1,5 @@
-127.0.0.1 ereg.adobe.com
-127.0.0.1 hlrcv.stage.adobe.com
+# google fcm
+108.177.125.188 mtalk.google.com
+
+# wechat fcm
+203.205.179.205 dns.weixin.qq.com
