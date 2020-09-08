@@ -242,7 +242,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Unbreak.yaml
-    url: https://raw.githubusercontent.com/pangmf/rules/master/Unbreak.yaml
+    url: https://raw.githubusercontent.com/pangmf/rules/master/Clash/RuleSet/Unbreak.yaml
     interval: 86400
 
   Streaming:
@@ -263,14 +263,14 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/AdBlock.yaml
-    url: https://raw.githubusercontent.com/pangmf/rules/master/AdBlock.yaml
+    url: https://raw.githubusercontent.com/pangmf/rules/master/Clash/RuleSet/AdBlock.yaml
     interval: 86400
     
   Netease Music:
     type: http
     behavior: classical
     path: ./RuleSet/Netease Music.yaml
-    url: https://raw.githubusercontent.com/pangmf/rules/master/Netease Music.yaml
+    url: https://raw.githubusercontent.com/pangmf/rules/master/Clash/RuleSet/Netease Music.yaml
     interval: 86400
     
   Global:
@@ -284,7 +284,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/China.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://raw.githubusercontent.com/pangmf/rules/master/Clash/RuleSet/China.yaml
     interval: 86400
 
   ChinaIP:
