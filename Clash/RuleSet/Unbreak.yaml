@@ -20,6 +20,8 @@ payload:
   - DOMAIN,alt5-mtalk.google.com
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,alt9-mtalk.google.com
   # > Tencent
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
