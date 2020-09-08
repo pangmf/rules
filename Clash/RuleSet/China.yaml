@@ -103,17 +103,6 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windowsupdate.com
-  # > NetEase
-  # USER-AGENT,NeteaseMusic*
-  # USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-  - DOMAIN-SUFFIX,163.com
-  - DOMAIN-SUFFIX,126.com
-  - DOMAIN-SUFFIX,126.net
-  - DOMAIN-SUFFIX,127.net
-  - DOMAIN-SUFFIX,163yun.com
-  - DOMAIN-SUFFIX,lofter.com
-  - DOMAIN-SUFFIX,netease.com
-  - DOMAIN-SUFFIX,ydstatic.com
   # > PayPal
   # USER-AGENT,PayPal*
   - DOMAIN-SUFFIX,paypal.com
@@ -141,7 +130,7 @@ payload:
   # USER-AGENT,WeChat*
   # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
   - DOMAIN-SUFFIX,gtimg.com
-  - DOMAIN-SUFFIX,idqqimg.com
+  - DOMAIN-SUFFIX,idimg.com
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,myapp.com
   - DOMAIN-SUFFIX,myqcloud.com
