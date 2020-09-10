@@ -72,7 +72,6 @@ hosts:
   'alt6-mtalk.google.com': 64.233.177.188
   'alt7-mtalk.google.com': 173.194.68.188
   'alt8-mtalk.google.com': 173.194.216.188
-  'v6.dns.weixin.qq.com': 203.205.179.205
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
