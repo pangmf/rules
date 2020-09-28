@@ -10,6 +10,6 @@
 173.194.68.188 alt7-mtalk.google.com
 173.194.216.188 alt8-mtalk.google.com
 
-# 去除tbs内核
+# 去除腾讯tbs内核
 127.0.0.1 soft.tbs.imtt.qq.com
 127.0.0.1 tbs.imtt.qq.com
