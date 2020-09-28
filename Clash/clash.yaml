@@ -292,7 +292,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/China.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://raw.githubusercontent.com//pangmf/rules/master/Clash/RuleSet/China.yaml
     interval: 86400
 
   ChinaIP:
