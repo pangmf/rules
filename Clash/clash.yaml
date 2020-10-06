@@ -132,12 +132,7 @@ dns:
 
 proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
-  - {name: 🇭🇰 NeteaseUnblock-HK-PC, server: 99.83.196.141, port: 58080, type: ss, cipher: rc4-md5, password: ieG9l1nte5eo7IBZas84jLi}
-  - {name: 🇭🇰 NeteaseUnblock-HK-IOS, server: 99.83.196.141, port: 58081, type: ss, cipher: rc4-md5, password: ieG9l1nte5eo7IBZas84jLi}
-  - {name: 🇯🇵 NeteaseUnblock-JP-PC, server: netease-jp.wcc.best, port: 58080, type: ss, cipher: rc4-md5, password: ngIF8Qs52OSElP6x}
-  - {name: 🇯🇵 NeteaseUnblock-JP-IOS, server: netease-jp.wcc.best, port: 58081, type: ss, cipher: rc4-md5, password: ngIF8Qs52OSElP6x}
-  - {name: 🇨🇳 NeteaseUnblock-CN-HHHT-PC, server: netease-hhht.wcc.best, port: 58080, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
-  - {name: 🇨🇳 NeteaseUnblock-CN-HHHT-IOS, server: netease-hhht.wcc.best, port: 58081, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
+  - {name: 🇨🇳 NeteaseUnblock-CN-HHHT, server: netease-hhht.wcc.best, port: 58080, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
 
 # 服务器节点订阅
 proxy-providers:
@@ -243,12 +238,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 NeteaseUnblock-HK-PC
-      - 🇭🇰 NeteaseUnblock-HK-IOS
-      - 🇯🇵 NeteaseUnblock-JP-PC
-      - 🇯🇵 NeteaseUnblock-JP-IOS
-      - 🇨🇳 NeteaseUnblock-CN-HHHT-PC
-      - 🇨🇳 NeteaseUnblock-CN-HHHT-IOS
+      - 🇨🇳 NeteaseUnblock-CN-HHHT
 
   # 手动选择节点订阅
   - name: "Sakura"
@@ -317,7 +307,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/China.yaml
-    url: https://raw.githubusercontent.com//pangmf/rules/master/Clash/RuleSet/China.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
 
   ChinaIP:
@@ -329,11 +319,6 @@ rule-providers:
 
 # 规则
 rules:
-  # Wechat Fcm
-  - DOMAIN-SUFFIX,dns.weixin.qq.com,PROXY
-  - DOMAIN-SUFFIX,weixin.qq.com,PROXY
-  - DOMAIN,v6.dns.weixin.qq.com,PROXY
-
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
 
