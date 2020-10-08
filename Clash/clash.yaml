@@ -157,7 +157,7 @@ proxy-providers:
   Sakura: # 机场订阅链接
     type: http
     url: "https://suo.yt/MyQZeSw"
-    interval: 3600
+    interval: 86400
     path: ./Proxy/Sakura.yaml # 不同机场不同命名
     health-check:
       enable: true
@@ -167,7 +167,7 @@ proxy-providers:
   Xtunnel: # 机场订阅链接
     type: http
     url: "https://suo.yt/0X9kfOT"
-    interval: 3600
+    interval: 86400
     path: ./Proxy/Xtunnel.yaml # 不同机场不同命名
     health-check:
       enable: true
