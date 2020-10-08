@@ -153,16 +153,6 @@ proxy-providers:
   #
   # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
-
-  Sakura: # 机场订阅链接
-    type: http
-    url: "https://suo.yt/MyQZeSw"
-    interval: 86400
-    path: ./Proxy/Sakura.yaml # 不同机场不同命名
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
       
   Xtunnel: # 机场订阅链接
     type: http
@@ -191,7 +181,7 @@ proxy-groups:
   # - name: "Fallback"
   #   type: fallback
   #   use:
-  #     - Sakura
+  #     - Xtunnel
   #   url: 'http://www.gstatic.com/generate_204'
   #   interval: 300
 
@@ -200,7 +190,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Sakura
       - Xtunnel
       
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
@@ -214,7 +203,6 @@ proxy-groups:
   - name: "Streaming"
     type: select
     use:
-      - Sakura
       - Xtunnel
       
   # 中国流媒体服务（面向海外版本）
@@ -223,7 +211,6 @@ proxy-groups:
     proxies:
       - DIRECT
     use:
-      - Sakura
       - Xtunnel
       
   # ADs
@@ -241,10 +228,6 @@ proxy-groups:
       - 🇨🇳 NeteaseUnblock-CN-HHHT
 
   # 手动选择节点订阅
-  - name: "Sakura"
-    type: select # 亦可使用 fallback 或 load-balance
-    use:
-      - Sakura
       
   - name: "Xtunnel"
     type: select # 亦可使用 fallback 或 load-balance
