@@ -156,7 +156,7 @@ proxy-providers:
       
   Xtunnel: # 机场订阅链接
     type: http
-    url: "https://suo.yt/0X9kfOT"
+    url: "https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fsub.ppbox.xyz%2Flink%2FBTxjB0fBs3TzKglT%3Fclash%3D1&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     interval: 86400
     path: ./Proxy/Xtunnel.yaml # 不同机场不同命名
     health-check:
