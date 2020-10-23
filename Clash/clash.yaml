@@ -161,7 +161,7 @@ proxy-providers:
     path: ./Proxy/Xtunnel.yaml # 不同机场不同命名
     health-check:
       enable: true
-      interval: 600
+      interval: 86400
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
