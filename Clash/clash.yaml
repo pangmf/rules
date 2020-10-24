@@ -154,11 +154,11 @@ proxy-providers:
   # 1.模式选择「进阶模式」 2.填写订阅链接 3.勾选「输出为 Node List」 4.「生成订阅链接」
   #
       
-  Cat: # 机场订阅链接
+  Xtunnel: # 机场订阅链接
     type: http
-    url: "https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fxn--z7x.icu%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dba3ae2ba4276979cf2a2597607a5a9eb&insert=false&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
+    url: "https://api.aoao.me/sub?target=clash&new_name=true&url=https%3A%2F%2Fsub.ppbox.xyz%2Flink%2FwpWdZz9VBM8YHy0m%3Fclash%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false"
     interval: 86400
-    path: ./Proxy/Cat.yaml # 不同机场不同命名
+    path: ./Proxy/Xtunnel.yaml # 不同机场不同命名
     health-check:
       enable: true
       interval: 86400
@@ -182,7 +182,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Cat
+      - Xtunnel
       
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
   - name: "MATCH"
@@ -195,7 +195,7 @@ proxy-groups:
   - name: "Streaming"
     type: select
     use:
-      - Cat
+      - Xtunnel
       
   # 中国流媒体服务（面向海外版本）
   - name: "StreamingSE"
@@ -203,7 +203,7 @@ proxy-groups:
     proxies:
       - DIRECT
     use:
-      - Cat
+      - Xtunnel
       
   # ADs
   - name: "AdBlock"
@@ -221,10 +221,10 @@ proxy-groups:
 
   # 手动选择节点订阅
       
-  - name: "Cat"
+  - name: "Xtunnel"
     type: select # 亦可使用 fallback 或 load-balance
     use:
-      - Cat
+      - Xtunnel
       
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
